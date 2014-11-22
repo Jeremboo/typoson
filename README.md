@@ -1,5 +1,3 @@
-Jérémie Boulay - Jeudi 20 Novembre 2014
-
 # Synopsis :
 
 Réalisation d'une application générant du son en fonction de ce qu'écrit l'utilisateur.
