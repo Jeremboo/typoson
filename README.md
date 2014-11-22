@@ -1,41 +1,26 @@
-# Synopsis :
+# Typo&sound
 
-Réalisation d'une application générant du son en fonction de ce qu'écrit l'utilisateur.
+Une application HTML5 générant du son en fonction de ce qu'écrit l'utilisateur.
 
-**Une lettre = Un son**
+Cette application a été contruite avec [Brunch](http://brunch.io/).
 
-Lorsqu'une lettre est tapée, elle sort du sol et s'échappe dans l'air provocant une ongulation du sol et un son.
+## Comment l'installer
 
+Pour faire fonctionner l'appliation, il est nessessaire d'avoir installé :
 
-# Librairies possibles :
+- [Node.js](http://nodejs.org/)
+- [Bower](http://bower.io/)
+- [Brunch](http://brunch.io/)
 
-- **Paper.js** pour la gestion de la courbe et des lettres (utilisé avec Canvas).
-- **Audiolet.js** pour la génération du son. **abandonnée. utilisation de l'API audio simplement.**
+Une fois l'environnement prêt à l'aide du terminal :
 
-
-# Etapes :
-
-- Reconnaitre et afficher les lettres correspondantes **(écouteur)**.
-- Faire l'animation des lettres **(class letter.js)**.
-- Associer un son à une lettre. **(class sound.js)**
-- Faire réagir la courbe en fonction du positionnement de la lettre créée. **(class spring.js)**
-- Crée une représentation en fond du son joué. (Bonus)
+- Téléchargez le dépôt git dans le répertoire voulue : ``git clone https://github.com/Jeremboo/typoson.git``
+- Installez les dépendances du projet : ``npm install & bower install``
+- Lancez le serveur : ``npm start``
+- Connectez-vous à : [http://localhost:3333/](http://localhost:3333/)
 
 
-# Nouvelles idées :
+## Plus d'informations 
 
-- Les lettres apparaissent assez proche les unes des autres.
-- A force d'écrire, les lettres avances.
-- Un espace fait apparaitre la prochaine lettre plus loin.
-- Au bout de la ligne, on revient tout à gauche.
-- Le son est créée en fonction du code de la lettre, de sa position et de sa taille. **seulement en fonction de sa taille**
-- Les lettres ont des tailles différentes..
-- Plus la lettre est grosse, plus l'onde est impactée.
-
-
-# Classes construites
-
-- **letter.js** pour gérer la lettre. Sa taille, couleur, position, sa durée de vie et son comportement.
-- **sound.js** pour gérer le son, les modifications que je souhaite apporter dessus ect... 
-- **spring.js** pour gérer le comportement du sol (les ondulations).
-
+- [document sur le travail réalisé en amont](docs/synopsis_reflexion.md)
+- [document de synthèse du travail réalisé](docs/synthese.md)
